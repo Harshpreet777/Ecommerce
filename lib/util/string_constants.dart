@@ -44,6 +44,14 @@ class StringConstant {
   static const stack2text1='Deal of the Day';
   static const stack2text2='22h 55m 20s remaining ';
   static const stack2text3='View all';
+  static const womendress='Women Printed Kurta';
+  static const women1='Neque porro quisquam est qui dolorem ipsum quia';
+  static const womendresscost='₹1500';
+  static const shoescost='₹2499';
+  static const shoes1='Neque porro quisquam est qui dolorem ipsum quia';
+  static const shoes='HRX by Hrithik Roshan';
+  static const dressogcost='₹2499';
+  static const shoesogcost='₹4999';
 
   
 }

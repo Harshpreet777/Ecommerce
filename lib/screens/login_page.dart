@@ -1,5 +1,6 @@
 import 'package:ecommerce/screens/create_account_page.dart';
 import 'package:ecommerce/screens/forget_pass_page.dart';
+import 'package:ecommerce/screens/home_page.dart';
 import 'package:ecommerce/util/color_constants.dart';
 import 'package:ecommerce/util/controller.dart';
 import 'package:ecommerce/util/string_constants.dart';
@@ -146,7 +147,7 @@ class _LoginPageClassState extends State<LoginPageClass> {
                               context,
                               MaterialPageRoute(
                                   builder: (context) =>
-                                      const CreateAccountPageClass()));
+                                      const HomePageClass()));
                         }
                         //}
                       },

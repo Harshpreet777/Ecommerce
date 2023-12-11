@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/login_page.dart';
 import 'package:ecommerce/util/color_constants.dart';
 import 'package:ecommerce/util/string_constants.dart';
 import 'package:ecommerce/util/textstyle_constants.dart';
@@ -210,6 +211,9 @@ class _CreateAccountPageClassState extends State<CreateAccountPageClass> {
                             .copyWith(fontSize: 14),
                       ),
                       GestureDetector(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => const LoginPageClass(),));
+                        },
                         child: Text(
                           StringConstant.login,
                           style: TextStyleConstant.montserrat12w600.copyWith(
