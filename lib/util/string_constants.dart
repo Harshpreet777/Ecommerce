@@ -52,6 +52,8 @@ class StringConstant {
   static const shoes='HRX by Hrithik Roshan';
   static const dressogcost='₹2499';
   static const shoesogcost='₹4999';
+  static const specialoffer='Special Offers';
+  static const specialoffertext='We make sure you get the \noffer you need at best prices';
 
   
 }
